@@ -9,10 +9,10 @@
     justify-content: center;
     flex-direction: row;
     align-items: center;
-    height: 100px;
+    height: 50px;
 }
 .posizione-header{
-    width: 80%;
+    width: 40%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -31,6 +31,7 @@
 .icone-header{
     width: 15%;
     color: white;
+    text-align: end;
 }
 main{
     display: flex;
@@ -153,13 +154,13 @@ main{
 }
 footer{
     background-color: black;
-    height: 100px;
+    height: 80px;
+    display: flex;
 }
 .container-footer{
     margin: 0 auto;
-    width: 80%;
+    width: 40%;
     display: flex;
-    height: 100px;
     background-color: black;
     justify-content: space-between;
     align-items: center;
