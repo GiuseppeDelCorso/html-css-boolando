@@ -16,7 +16,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    
 }
 .immagine-header{
     width: 150px;
@@ -28,9 +28,13 @@
     justify-content: space-between;
     color: white;
 }
-.icone{
+.icone-header{
     width: 15%;
     color: white;
+}
+main{
+    display: flex;
+    margin: 20px 543px;
 }
 .container-main{
     width: 34%;
@@ -46,6 +50,51 @@
 }
 .container-profilo:hover{
     background-image: url(img/1b.webp);
+}
+.container-profilo-2{
+    width: 80%;
+    background-image: url(img/2.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.container-profilo-2:hover{
+    background-image: url(img/2b.webp);
+}
+.container-profilo-3{
+    width: 80%;
+    background-image: url(img/3.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.container-profilo-3:hover{
+    background-image: url(img/3b.webp);
+}
+.container-profilo-4{
+    width: 80%;
+    background-image: url(img/4.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.container-profilo-4:hover{
+    background-image: url(img/4b.webp);
+}
+.container-profilo-5{
+    width: 80%;
+    background-image: url(img/5.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.container-profilo-5:hover{
+    background-image: url(img/5b.webp);
+}
+.container-profilo-6{
+    width: 80%;
+    background-image: url(img/6.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.container-profilo-6:hover{
+    background-image: url(img/6b.webp);
 }
 
 .sconto{
@@ -73,13 +122,13 @@
     top: 267px;
     left: 47px;
 }
-.fa-solid{
+.icone{
     color: black;
     position: relative;
     bottom: 30px;
     left: 200px;
 }
-.fa-solid:hover{
+.icone:hover{
     color: red;
 }
 .marca-1{
@@ -102,7 +151,32 @@
     left: 45px;
     text-decoration: line-through
 }
-main{
+footer{
+    background-color: black;
+    height: 100px;
+}
+.container-footer{
+    margin: 0 auto;
+    width: 80%;
     display: flex;
-    margin: 50px 543px;
+    height: 100px;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+}
+.contenitore-informazioni-footer{
+    
+}
+.informazioni-footer{
+    
+    color: white;
+    font-weight: bold;
+}
+.informazioni-footer-2{
+    font-size: 15px;
+    color: white;
+    
+}
+.contenitore-icone-footer{
+    color: white;
 }
