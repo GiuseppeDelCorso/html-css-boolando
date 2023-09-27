@@ -33,14 +33,13 @@
     color: white;
 }
 .container-main{
-    width: 80%;
-    margin: 0 auto;
-    height: 490px;
+    width: 34%;
+    height: 399px;
     display: flex;
-    padding-top: 50px;
+    justify-content: center;
 }
 .container-profilo{
-    width: 20%;
+    width: 80%;
     background-image: url(img/1.webp);
     background-repeat: no-repeat;
     background-size: contain;
@@ -59,7 +58,7 @@
     width: 40px;
     background-color: red;
     position: relative;
-    top: 360px;
+    top: 286px;
 }
 .sostenibilita{
     font-weight: bold;
@@ -71,35 +70,39 @@
     width: 60px;
     background-color:green;
     position: relative;
-    top: 341px;
+    top: 267px;
     left: 47px;
 }
 .fa-solid{
     color: black;
     position: relative;
     bottom: 30px;
-    left: 280px;
+    left: 200px;
 }
 .fa-solid:hover{
     color: red;
 }
 .marca-1{
     position: relative;
-    top: 390px;
+    top: 275px;
 }
 .marca-2{
     font-weight: bold;
     position: relative;
-    top: 392px;
+    top: 273px;
 }
 .prezzo-1{
     color: red;
     position: relative;
-    top: 395px;
+    top: 275px;
 }
 .prezzo-2{
     position: relative;
-    top: 377px;
+    top: 257px;
     left: 45px;
     text-decoration: line-through
+}
+main{
+    display: flex;
+    margin: 50px 543px;
 }
