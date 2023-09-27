@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container-header{
+    display: flex;
+    background-color: rgb(206, 102, 5);
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    height: 100px;
+}
+.posizione-header{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.immagine-header{
+    width: 150px;
+    
+}
+.genere{
+    display: flex;
+    width: 15%;
+    justify-content: space-between;
+    color: white;
+}
+.icone{
+    width: 15%;
+    color: white;
+}
+.container-main{
+    width: 80%;
+    margin: 0 auto;
+    height: 490px;
+    display: flex;
+    padding-top: 50px;
+}
+.container-profilo{
+    width: 20%;
+    background-image: url(img/1.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.container-profilo:hover{
+    background-image: url(img/1b.webp);
+}
+
+.sconto{
+    font-weight: bold;
+    padding-top: 5px;
+    font-size: 9px;
+    color: white;
+    text-align: center;
+    height: 20px;
+    width: 40px;
+    background-color: red;
+    position: relative;
+    top: 360px;
+}
+.sostenibilita{
+    font-weight: bold;
+    padding-top: 5px;
+    font-size: 9px;
+    color: white;
+    text-align: center;
+    height: 20px;
+    width: 60px;
+    background-color:green;
+    position: relative;
+    top: 341px;
+    left: 47px;
+}
+.fa-solid{
+    color: black;
+    position: relative;
+    bottom: 30px;
+    left: 280px;
+}
+.fa-solid:hover{
+    color: red;
+}
+.marca-1{
+    position: relative;
+    top: 390px;
+}
+.marca-2{
+    font-weight: bold;
+    position: relative;
+    top: 392px;
+}
+.prezzo-1{
+    color: red;
+    position: relative;
+    top: 395px;
+}
+.prezzo-2{
+    position: relative;
+    top: 377px;
+    left: 45px;
+    text-decoration: line-through
+}
